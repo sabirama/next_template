@@ -1,5 +1,5 @@
 import Link from "next/link"
-import pagelist from "../pagelist"
+import pagelist from "../../../src/pagelist"
 
 export default function () {
     return (
