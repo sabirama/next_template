@@ -179,9 +179,3 @@
 </li>
 </ul>
 </div>
-
-<style>
-p {
-    color: powderblue
-}
-</style>
