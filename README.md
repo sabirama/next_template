@@ -192,6 +192,7 @@ postApi("table_name", req);
 ```typescript
 postApi("table_name", req);
 ```
+
 </li>
 </ul>
 
@@ -275,4 +276,20 @@ return unhash;
 
 </li>
 </ul>
+</div>
+<div style="margin-top: 2rem">
+    <h1 style="color: skyblue">API ACCESS</h1>
+    <ul style="list-style:'⚫ '">
+        <li>
+            <h3>Public API</h3>
+            <p>To make your api public, do not add authorization middleware inside the api route file.</p>
+        </li>
+         <li>
+            <h3>Authorized API</h3>
+            <p>Authorize your API by adding the authorization function to your api route file.</p>
+            <p>There are two access headers authorization for authorized routes, ACCESS_KEY and AUTHORIZATION.</p>
+            <p>ACCESS_KEY is for making sure that only sites with access keys communicate with your server.</p>
+            <p>AUTHORIZATION is for authenticating users to control what they can do with your app.</p>
+        </li>
+    </ul>
 </div>
